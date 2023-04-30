@@ -1,0 +1,18 @@
+@use'./colors';
+//colors
+$primary-color:var(--lightRed);
+$secondary-color:var(--orangeYellow);
+$third-color:var(--greenTeal);
+$fourth-color:var(--colbaltBlue);
+//Gradient color
+$gradient-color-lightSlate-blue:var(--lightSlate-blue);
+$gradient-color-lightRoyal-blue:var(--lightRoyal-blue);
+  //used in circled element color used
+$gradient-color-violetBlue:var(--violetBlue);
+$gradient-color-persianBlue:var(--persianBlue);
+  // colors can be use in text color or background // NEUTRAL Colors
+$neutral-color-white:var(--white);
+$neutral-color-paleBlue:var(--paleBlue);
+$neutral-color-lightLavender:var(--lightLavender);
+$neutral-color-darkGray-blue:var(--darkGray-blue);
+

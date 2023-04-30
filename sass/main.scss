@@ -1,2 +1,12 @@
 //import all SCSS files here
-@use '../sass/base/reset'
+  //from sass base folder
+@use '../sass/base/reset';
+@use '../sass/base/typography';
+
+  //from sass layout
+@use'../sass/layout/grid';
+@use'../sass/layout/breakpoints';
+
+//from sass helpers
+@use'../sass/helpers/variables';
+@use'../sass/helpers/colors';
