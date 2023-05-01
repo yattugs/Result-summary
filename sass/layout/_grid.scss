@@ -44,17 +44,4 @@
       align-items: center;
     }
   }
-  // Background color each item
-  .category__item:nth-child(1){
-    background-color: hsla(0, 100%, 67%, 0.100);
-  }
-  .category__item:nth-child(2){
-    background-color:hsla(39, 100%, 56%, 0.100);
-  }
-  .category__item:nth-child(3){
-    background-color: hsla(166, 100%, 37, 0.100);
-  }
-  .category__item:nth-child(4){
-    background-color: hsla(234, 85%, 45%, 0.100);
-  }
 }
