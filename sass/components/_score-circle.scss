@@ -1,0 +1,8 @@
+@use'../helpers' as *;
+.grid__col1-score{
+  background-color:$gradient-color-lightRoyal-blue;
+  padding: 2em;
+  border-radius: 50%;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.187);
+  box-shadow: 0 15px 1rem rgba(0, 0, 0, 0.105);
+}

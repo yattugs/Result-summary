@@ -1,16 +1,21 @@
-@media screen and (min-width: 40em){
+@media screen and (min-width: 480px){
   .grid{
     flex-direction: row;
-    // align-items: center;
     justify-content: center;
-    min-width: 664px;
 
     &__col1{
       border-radius: 1rem;
-      min-width: 310px;
-      
+      max-width: 380px;
+      justify-content: space-between;
+      margin-right: -1em;
+      position: relative;
+      z-index: 1;
     }
+    &__col2{
+      position: relative;
+      padding-left: 2em;
+      z-index: 0;
 
+    }
   }
-  
 }
