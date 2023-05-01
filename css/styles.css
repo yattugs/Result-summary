@@ -83,20 +83,16 @@ h1, h2, h3, h4, h5 {
   display: flex;
   align-items: center;
 }
-
-.item-1 {
+.grid__category-items .category__item:nth-child(1) {
   background-color: hsla(0, 100%, 67%, 0.1);
 }
-
-.item-2 {
+.grid__category-items .category__item:nth-child(2) {
   background-color: hsla(39, 100%, 56%, 0.1);
 }
-
-.item-3 {
+.grid__category-items .category__item:nth-child(3) {
   background-color: hsla(166, 100%, 37%, 0.1);
 }
-
-.item-4 {
+.grid__category-items .category__item:nth-child(4) {
   background-color: hsla(234, 85%, 45%, 0.1);
 }
 
