@@ -1,0 +1,12 @@
+@use'../helpers' as *;
+.grid__col2{
+  button{
+    background-color:$neutral-color-darkGray-blue;
+    color:$neutral-color-white;
+    padding: 1em ;
+    font-size: 1.125rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 2em;
+  }
+}
